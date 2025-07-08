@@ -640,6 +640,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7650407673520683600, guid: 85a5d5501d5799f4f93a309837e87d6c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3169111561766295282, guid: 85a5d5501d5799f4f93a309837e87d6c, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.65
@@ -713,6 +717,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 680220516405711160, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 837548900600312130, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.6
@@ -753,27 +761,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1678841087772248894, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 680220516405711160, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
+    - {fileID: 1678841087772248894, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-<<<<<<< HEAD
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 298074062}
-    - targetCorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 298074063}
-    - targetCorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 298074064}
-=======
     m_AddedComponents: []
->>>>>>> main
   m_SourcePrefab: {fileID: 100100000, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
