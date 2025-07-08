@@ -119,47 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &298074059 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
-  m_PrefabInstance: {fileID: 8965445520044643532}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &298074062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298074059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b1b5f3203d49a4a8ae76e9a2e58ab0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &298074063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298074059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d063651849049364084d0b4b555a20cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &298074064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 298074059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eacd94b6dad8954388d32e9f7f5a4e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,6 +760,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
+<<<<<<< HEAD
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
       insertIndex: -1
@@ -811,6 +771,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 298074064}
+=======
+    m_AddedComponents: []
+>>>>>>> main
   m_SourcePrefab: {fileID: 100100000, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
