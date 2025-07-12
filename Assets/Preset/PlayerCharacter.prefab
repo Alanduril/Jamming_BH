@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 837548900600312130}
   - component: {fileID: 7949097279810615386}
-  - component: {fileID: 680220516405711160}
-  - component: {fileID: 1678841087772248894}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Untagged
@@ -89,33 +87,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &680220516405711160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8606646639028638744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24b1b5f3203d49a4a8ae76e9a2e58ab0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1678841087772248894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8606646639028638744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ef0bbcb51ffc6743a1621e8a9144cfc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerName: Hero
-  health: 100
-  moveSpeed: 5
-  level: 1
-  exp: 0
-  expMagnetRange: 5
