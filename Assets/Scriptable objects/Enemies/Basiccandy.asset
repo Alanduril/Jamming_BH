@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962de257aded4b14daa7606ddb2807d4, type: 3}
+  m_Name: Basiccandy
+  m_EditorClassIdentifier: 
+  enemyName: Candy
+  maxHealth: 10
+  damage: 10
+  speed: 0
+  sprite: {fileID: -4486483797736018815, guid: 0bf7a2afc1366834a8753ff2de9cf69a, type: 3}
