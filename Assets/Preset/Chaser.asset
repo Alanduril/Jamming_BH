@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fa86981d4c6b04381f5b64e59f9f64, type: 3}
+  m_Name: Chaser
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  moveSpeed: 2
+  prefab: {fileID: 1246252044931125362, guid: 9c39e9021b687f24ab051223af2efcf3, type: 3}
