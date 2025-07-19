@@ -486,7 +486,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fab2817954d9e5f4e888b0d5eb59c891, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thingToFollow: {fileID: 800333103934226644}
+  thingToFollow: {fileID: 0}
 --- !u!1 &523837361
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,11 +673,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &772396271 stripped
+--- !u!1 &772396271
 GameObject:
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
-  m_PrefabInstance: {fileID: 8965445520044643532}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772396279}
+  - component: {fileID: 772396277}
+  - component: {fileID: 772396276}
+  - component: {fileID: 772396278}
+  - component: {fileID: 772396272}
+  - component: {fileID: 772396275}
+  m_Layer: 0
+  m_Name: 
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!114 &772396272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,6 +709,7 @@ MonoBehaviour:
   maxHealth: 100
   health: 0
   healthBar: {fileID: 1719598663}
+  iFrameDuration: 1
 --- !u!114 &772396275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,86 +810,23 @@ RotationConstraint:
   m_Active: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 789729459}
+  - sourceTransform: {fileID: 0}
     weight: 1
---- !u!4 &772396280 stripped
+--- !u!4 &772396279
 Transform:
-  m_CorrespondingSourceObject: {fileID: 837548900600312130, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
-  m_PrefabInstance: {fileID: 8965445520044643532}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &789729456 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4316511315265390564, guid: 85a5d5501d5799f4f93a309837e87d6c, type: 3}
-  m_PrefabInstance: {fileID: 3394422858090202436}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &789729459 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3169111561766295282, guid: 85a5d5501d5799f4f93a309837e87d6c, type: 3}
-  m_PrefabInstance: {fileID: 3394422858090202436}
-  m_PrefabAsset: {fileID: 0}
---- !u!58 &789729460
-CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789729456}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1
---- !u!50 &789729461
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789729456}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 1
-  m_Constraints: 0
+  m_GameObject: {fileID: 772396271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1083892639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1368,7 +1322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   database: {fileID: 11400000, guid: abb7863ea4c6f6548a9d52dc068a37dd, type: 2}
-  player: {fileID: 772396280}
+  player: {fileID: 0}
   spawnOffset: {x: 3, y: 3}
 --- !u!4 &1971356277
 Transform:
@@ -1450,11 +1404,12 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 772396279}
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 5844404087685335999}
   - {fileID: 1618283546}
   - {fileID: 153624760}
   - {fileID: 523837365}
   - {fileID: 1825624892}
   - {fileID: 1971356277}
+  - {fileID: 3394422858090202436}

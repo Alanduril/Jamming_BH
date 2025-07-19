@@ -9,7 +9,7 @@ public class Enemy2DBase : MonoBehaviour
 
     void Start()
     {
-        currentHealth = data.MaxHealt;
+        currentHealth = data.MaxHealth;
         target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
