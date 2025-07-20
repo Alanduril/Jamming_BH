@@ -9,6 +9,7 @@ public class PlayerBase : MonoBehaviour
     public float exp = 0f;
     public float expMagnetRange = 5f;
 
+
     public virtual void Move(Vector2 direction)
     {
         transform.Translate(direction.normalized * moveSpeed * Time.deltaTime);
