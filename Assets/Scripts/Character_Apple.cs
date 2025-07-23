@@ -31,10 +31,9 @@ public class Character_Apple : PlayerBase
         else _animator.SetBool("isRunning", false);
 
         //Dash towards cursor
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector2 direction = mousePos - (Vector2)transform.position;
+            Vector2 direction = input.normalized;
             StartCoroutine(DashCoroutine(direction));
         }
     }
