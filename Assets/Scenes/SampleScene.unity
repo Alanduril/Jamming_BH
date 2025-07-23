@@ -796,6 +796,7 @@ MonoBehaviour:
   level: 1
   exp: 0
   expMagnetRange: 5
+  dashDistance: 5
 --- !u!70 &772396276
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1475,6 +1476,10 @@ PrefabInstance:
       propertyPath: _animator
       value: 
       objectReference: {fileID: 762664381}
+    - target: {fileID: 3102233601884731858, guid: becaea89281d6204f88ef28885349603, type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5166839075588393136, guid: becaea89281d6204f88ef28885349603, type: 3}
       propertyPath: m_Name
       value: PlayerCharacter
