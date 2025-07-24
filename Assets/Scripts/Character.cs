@@ -1,7 +1,9 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerBase : MonoBehaviour
 {
+    [SterializeField] private PlayerAndEnemyStats PlayerAndEnemyStats;
     public string playerName = "Hero";
     public float health = 100f;
     public float moveSpeed = 5f;
