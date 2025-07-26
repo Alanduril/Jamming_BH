@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1522854208567954457}
   - component: {fileID: 6044519245131092413}
   - component: {fileID: 7761614218596766825}
+  - component: {fileID: 5261926216828966974}
   m_Layer: 0
   m_Name: PlayerCharactervariant
   m_TagString: Player
@@ -107,6 +108,7 @@ MonoBehaviour:
   maxHealth: 100
   health: 0
   healthBar: {fileID: 0}
+  iFrameDuration: 1
 --- !u!114 &3102233601884731858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,3 +211,15 @@ RotationConstraint:
   m_Sources:
   - sourceTransform: {fileID: 0}
     weight: 1
+--- !u!114 &5261926216828966974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5166839075588393136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eacd94b6dad8954388d32e9f7f5a4e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
