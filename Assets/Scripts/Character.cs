@@ -12,8 +12,10 @@ public class PlayerBase : MonoBehaviour
     public float expMagnetRange = 5f;
 
     public float dashDistance = 5f;
-    public float dashCooldown = 2f;
-    protected bool canDash = true;
+    public float dashCooldown = 10f;
+    protected bool canDash = true;      // is responsible for the cooldown
+    protected bool isDashing = false;   // conditional used for when animations can be played
+    public TrailRenderer tr;
 
 
     public virtual void Move(Vector2 direction)
@@ -24,9 +26,11 @@ public class PlayerBase : MonoBehaviour
     public IEnumerator DashCoroutine(Vector2 direction, float duration = 0.1f)
     {
         canDash = false;
+        isDashing = true;
         Vector2 start = transform.position;
         Vector2 target = start + direction.normalized * dashDistance;
         float time = 0f;
+        tr.emitting = true;
 
         while (time < duration)
         {
@@ -36,7 +40,11 @@ public class PlayerBase : MonoBehaviour
         }
 
         transform.position = target;
+        tr.emitting = false;
+        yield return new WaitForSeconds(0.25f);
+        isDashing = false;
         yield return new WaitForSeconds(dashCooldown);
+        Debug.Log("Can dash now");
         canDash = true;
     }
 }

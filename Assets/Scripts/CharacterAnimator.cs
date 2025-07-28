@@ -4,18 +4,23 @@ using UnityEngine.Windows;
 // Contains logic for animating the character
 public class CharacterAnimator : MonoBehaviour
 {
-    
     private Animator _animator;
     private SpriteRenderer _spriteRenderer;
 
     void Awake()
     {
+        
         _animator = GetComponent<Animator>();
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    public void UpdateMovementAnimation(Vector2 input)
-    {
+    public void UpdateMovementAnimation(Vector2 input, bool isDashing)
+    { 
+        if (isDashing)
+        {
+            _animator.SetBool("isRunning", false);
+            return;
+        }
         if (input != Vector2.zero)
         {
             _animator.SetBool("isRunning", true);
@@ -26,7 +31,6 @@ public class CharacterAnimator : MonoBehaviour
     }
     public void PlayDashAnimation(Vector2 input)
     {
-        if (input != Vector2.zero)
         _animator.SetTrigger("dash");
     }
 }
