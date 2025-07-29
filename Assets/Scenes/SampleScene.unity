@@ -829,8 +829,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.4811321, g: 0, b: 0.06422407, a: 1}
-      key1: {r: 1, g: 1, b: 1, a: 0}
+      key0: {r: 0.39607847, g: 0.078431375, b: 0.13725491, a: 1}
+      key1: {r: 0.39607847, g: 0.078431375, b: 0.13725491, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1646,6 +1646,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 877245351
       objectReference: {fileID: 0}
+    - target: {fileID: 8279217848874069686, guid: becaea89281d6204f88ef28885349603, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 1719598663}
     - target: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
       propertyPath: m_TagString
       value: Player
