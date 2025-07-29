@@ -781,6 +781,18 @@ RotationConstraint:
   m_Sources:
   - sourceTransform: {fileID: 789729459}
     weight: 1
+--- !u!114 &772396279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772396271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8884eba7f7e8f9d4fa3f753480507d58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &789729456 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4316511315265390564, guid: 85a5d5501d5799f4f93a309837e87d6c, type: 3}
@@ -1428,6 +1440,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 772396278}
+    - targetCorrespondingSourceObject: {fileID: 8606646639028638744, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 772396279}
   m_SourcePrefab: {fileID: 100100000, guid: e2f93a81fcca4cd4ba805fa4a4b3ed40, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

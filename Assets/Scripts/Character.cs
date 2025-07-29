@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerBase : MonoBehaviour
 {
-    [SterializeField] private PlayerAndEnemyStats PlayerAndEnemyStats;
+
     public string playerName = "Hero";
     public float health = 100f;
     public float moveSpeed = 5f;
@@ -15,4 +15,6 @@ public class PlayerBase : MonoBehaviour
     {
         transform.Translate(direction.normalized * moveSpeed * Time.deltaTime);
     }
+
+
 }
